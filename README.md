@@ -7,14 +7,13 @@ chance to fiddle around with making a small CLI)
 ## Requirements
 
 * Java 17
-* Maven
 
 ## Usage
 
 ### Build
 
 1. `git clone` this repo
-2. Open a terminal in the cloned directory and run the command `mvn clean install` to build an artifact
+2. Open a terminal in the cloned directory and run the command `./mvnw clean install` to build an artifact
 3. A `.jar` file will be generated in the `/target` directory
 
 ### Usage
