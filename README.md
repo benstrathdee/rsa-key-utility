@@ -13,7 +13,7 @@ chance to fiddle around with making a small CLI)
 ### Build
 
 1. `git clone` this repo
-2. Open a terminal in the cloned directory and run the command `./mvnw clean install` to build an artifact
+2. Open a terminal in the cloned directory and run the command `./mvnw clean compile assembly:single` to build an artifact
 3. A standalone `.jar` file with bundled dependencies will be generated in the `/target` directory
 4. The `.jar` file can be moved and run from any location
 
