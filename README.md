@@ -6,7 +6,7 @@ chance to fiddle around with making a small CLI)
 
 ## Requirements
 
-* Java 17
+* JDK 18+
 
 ## Usage
 
