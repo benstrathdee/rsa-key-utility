@@ -14,7 +14,8 @@ chance to fiddle around with making a small CLI)
 
 1. `git clone` this repo
 2. Open a terminal in the cloned directory and run the command `./mvnw clean install` to build an artifact
-3. A `.jar` file will be generated in the `/target` directory
+3. A standalone `.jar` file with bundled dependencies will be generated in the `/target` directory
+4. The `.jar` file can be moved and run from any location
 
 ### Usage
 
@@ -51,3 +52,4 @@ If any arguments values are invalid, `help` output will be displayed.
 
 * JCommander (for parsing arguments from command line)
 * Jansi (for allowing formatted ANSI output on Windows terminals)
+* Maven Assembly Plugin (for building an executable artifact with bundled dependencies)
